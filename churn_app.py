@@ -27,16 +27,29 @@ label_mapping = {
     'Two year': 2,
 }
 internet_service = label_mapping[internet_service]
+print("internet_service  label-----",internet_service)
 contract = label_mapping[contract]
+print("contract  label-----",contract)
 
 # Make a prediction using the model
 prediction = model.predict([[tenure, internet_service, contract, monthly_charges, total_charges]])
 
 # Display the prediction result on the main screen
-st.header("Prediction Result")
-if prediction[0] == 0:
-    st.success("This customer is likely to stay.")
-else:
-    st.error("This customer is likely to churn.")
+# st.header("Prediction Result")
+# if prediction[0] == 0:
+#     st.success("This customer is likely to stay.")
+# else:
+#     st.error("This customer is likely to churn.")
 
-# Add any additional Streamlit components or UI elements as needed.
+
+# Create a submit button
+if st.button("Submit"):
+    # Make a prediction using the model
+    prediction = model.predict([[tenure, internet_service, contract, monthly_charges, total_charges]])
+
+    # Display the prediction result on the main screen
+    st.header("Prediction Result")
+    if prediction[0] == 0:
+        st.success("This customer is likely to stay.")
+    else:
+        st.error("This customer is likely to churn.")
