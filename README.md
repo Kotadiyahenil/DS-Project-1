@@ -13,7 +13,9 @@ In the highly competitive telecom industry, retaining customers is crucial. This
 
 The dataset contains various customer attributes, including:
 📌 Demographics – Gender, Senior Citizen, etc.
+
 📌 Account Details – Tenure, Payment Method, Contract Type
+
 📌 Service Subscriptions – Internet, Phone, Streaming Services
 📌 Billing Information – Monthly Charges, Total Charges
 
