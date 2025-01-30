@@ -4,6 +4,7 @@
 
 In the highly competitive telecom industry, retaining customers is crucial. This project leverages machine learning to predict customer churn, helping businesses take proactive measures to improve customer retention.
 
+
 🎯 Goals:
 
 ✅ Identify key factors that contribute to customer churn
@@ -11,6 +12,7 @@ In the highly competitive telecom industry, retaining customers is crucial. This
 ✅ Build predictive models to detect at-risk customers
 
 ✅ Deploy a machine learning model for real-time predictions
+
 
 📂 Dataset
 
@@ -23,6 +25,7 @@ The dataset contains various customer attributes, including:
 📌 Service Subscriptions – Internet, Phone, Streaming Services
 
 📌 Billing Information – Monthly Charges, Total Charges
+
 
 🛠️ Tech Stack
 
