@@ -68,4 +68,3 @@ The trained model is deployed using Flask, making it accessible for real-time pr
 
 🔹 Model can be improved further with deep learning & advanced feature engineering
 
-💡 If you like this project, don't forget to ⭐ the repository!
